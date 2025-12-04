@@ -1,1 +1,1 @@
-# weather-dashboard-test
+# Temperature ConverterThis project demonstrates a simple web page with a temperature display that can toggle between Celsius and Fahrenheit units. It is built using HTML, CSS, and JavaScript, focusing on minimal and surgical changes to an existing structure.

@@ -1,1 +1,55 @@
-# Weather Dashboard ## Live Demo Live Demo: [DEPLOYMENT_URL_PLACEHOLDER] ## Overview This project is a simple and responsive weather dashboard that displays current weather information. It fetches weather data from a local `weather.json` file and presents it in an easy-to-read format using Bootstrap cards and Font Awesome icons. ## Features * Current Weather Display: Shows temperature, weather condition, humidity, and wind speed. * Local Data Source: Loads all weather information from a `weather.json` file. * Responsive Design: Optimized for various screen sizes, from mobile to desktop. * Modern UI: Utilizes Bootstrap 5 for styling and Font Awesome for thematic icons. ## Technologies Used * HTML5: For structuring the web content. * CSS3 (Bootstrap 5): For responsive design and pre-built components. * JavaScript (ES6+): For fetching and displaying weather data dynamically. * Font Awesome: For scalable vector icons. ## Setup To run this project locally, follow these steps: 1. Clone the repository: ```bash git clone <repository_url> cd weather-dashboard ``` (Replace `<repository_url>` with the actual repository URL if this project were hosted on Git.) 2. Ensure `weather.json` is present: Make sure the `weather.json` file is in the same directory as `index.html`. This file contains the weather data that the dashboard will display. A sample `weather.json` could look like this: ```json { "location": "New York, USA", "temperature": "22°C", "condition": "Partly Cloudy", "humidity": "65%", "wind_speed": "12 km/h" } ``` 3. Open `index.html`: Simply open the `index.html` file in your web browser. No local server is strictly required as all resources are local or loaded via CDN. ## Usage Once `index.html` is opened in a browser, the weather dashboard will automatically load and display the weather data from `weather.json`. The dashboard is static and will reflect the data present in `weather.json` at the time of loading. ## Project Structure ``` . ├── index.html         # The main HTML file for the weather dashboard ├── README.md          # Project documentation ├── LICENSE            # MIT License text └── weather.json       # Local data file containing weather information ``` ## License This project is licensed under the MIT License. See the `LICENSE` file for more details.
+# Dynamic Weather Dashboard
+
+## 🚀 Live Demo
+
+**Experience the application live here:**
+
+[![Live Demo](https://img.shields.io/badge/Live%20Application-Visit%20Now-brightgreen?style=for-the-badge&logo=github)](https://Shubham30000.github.io/weather-dashboard-test/)
+
+---
+
+## 📋 Overview
+
+This project features a simple, yet effective weather dashboard designed to dynamically display current weather conditions. It parses static weather data from a `weather.json` file and presents essential information like temperature, condition, humidity, and wind speed in a clear, card-based layout.
+
+## ✨ Features
+
+*   **Dynamic Data Display**: Automatically loads and displays weather data (temperature, condition, humidity, wind speed) from `weather.json`.
+*   **Responsive Layout**: Utilizes Bootstrap cards for a modern, mobile-friendly, and responsive design.
+*   **Intuitive Icons**: Integrates Font Awesome icons to visually represent weather conditions.
+*   **Clean Interface**: Provides an easy-to-read and user-friendly presentation of weather information.
+
+## 🛠️ Technologies Used
+
+*   **HTML5**: For structuring the web content.
+*   **Bootstrap 5**: A powerful CSS framework for responsive layout and styling.
+*   **JavaScript**: For dynamic loading and display of weather data.
+*   **Font Awesome (CDN)**: For scalable vector icons to enhance the user interface.
+
+## 📦 Setup
+
+To get a copy of the project up and running on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Shubham30000/weather-dashboard-test.git
+    ```
+2.  **Navigate into the project directory:**
+    ```bash
+    cd weather-dashboard-test
+    ```
+3.  **Open the application:**
+    Simply open the `index.html` file in your preferred web browser. No server setup is required as data is loaded locally.
+
+## 💡 Usage
+
+Upon opening `index.html` in your browser, the application will automatically fetch the weather data from the `weather.json` file. The temperature, condition, humidity, and wind speed will be displayed in their respective sections within the Bootstrap cards.
+
+## 📁 Project Structure
+
+*   `index.html`: The main HTML file that structures the weather dashboard and includes the JavaScript logic for data display.
+*   `weather.json`: A JSON file containing the static weather data (temperature, condition, humidity, wind speed).
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
